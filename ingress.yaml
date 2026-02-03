@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: app
 spec:
+  ingressClassName: nginx
   rules:
   - host: hello.example.local
     http:
