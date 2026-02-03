@@ -4,7 +4,7 @@ metadata:
   name: app
 spec:
   rules:
-  - host: app.example.local
+  - host: hello.example.local
     http:
       paths:
       - path: /
